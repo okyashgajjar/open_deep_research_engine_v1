@@ -209,9 +209,24 @@ The UI provides:
 
 1️⃣ Install dependencies
 
-```bash
-pip install streamlit pypdf python-dotenv langchain langgraph
 ```
+From inside the repo:
+
+```bash
+cd open_deep_research
+pip install -e .
+
+```
+
+### What this does
+
+- Registers `open_deep_research` as a Python package
+- Adds it to PYTHONPATH
+- Allows clean imports
+
+🧠 Real life:
+
+You told Python: *“This is a real library, trust it.”*
 
 2️⃣ Create `.env` file (project root)
 
