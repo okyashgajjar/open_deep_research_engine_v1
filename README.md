@@ -277,13 +277,6 @@ Open in browser: http://localhost:8501
 - Background execution using Celery
 
 ---
-
-## 🧠 How to Explain This Project in an Interview
-
-> “I built a deep research system by extending an existing LangGraph-based agent. The system supports research continuation, file-based context, cost tracking, and observability, while keeping the core research logic untouched. The architecture cleanly separates UI, engine, and AI workflow.”
-
----
-
 ## ✅ Conclusion
 
 This project demonstrates how to build a persistent, extensible, and cost-aware deep research system using modern AI tooling without rewriting complex research logic.
